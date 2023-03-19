@@ -19,8 +19,8 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chichen Itza, Mexico" translatesAutoresizingMaskIntoConstraints="NO" id="fjs-Gu-Kb5">
                         <rect key="frame" x="10" y="50" width="511" height="311"/>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5M-Z3-K6e">
-                        <rect key="frame" x="244" y="21" width="42" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5M-Z3-K6e">
+                        <rect key="frame" x="10" y="21" width="521" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
@@ -39,7 +39,7 @@
                 <outlet property="imgContainer" destination="fjs-Gu-Kb5" id="bdZ-SI-ylN"/>
                 <outlet property="lblLabel" destination="n5M-Z3-K6e" id="1L7-D4-9z7"/>
             </connections>
-            <point key="canvasLocation" x="261.83206106870227" y="134.85915492957747"/>
+            <point key="canvasLocation" x="260" y="156"/>
         </tableViewCell>
     </objects>
     <resources>

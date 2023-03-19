@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="449" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="MidTermQ1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="461" height="449"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="461" height="449"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7F-H8-EeO">
+                        <rect key="frame" x="5" y="30" width="451" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chichén Itzá, Mexico" translatesAutoresizingMaskIntoConstraints="NO" id="hXr-U5-0AT">
+                        <rect key="frame" x="20" y="78" width="421" height="361"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="j7F-H8-EeO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="Sa9-5x-45M"/>
+                    <constraint firstAttribute="trailing" secondItem="j7F-H8-EeO" secondAttribute="trailing" constant="5" id="UQ4-c0-2x6"/>
+                    <constraint firstItem="j7F-H8-EeO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="hgo-o3-fDC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblName" destination="j7F-H8-EeO" id="GAK-w7-e94"/>
+                <outlet property="wondersImage" destination="hXr-U5-0AT" id="ycF-HV-ceN"/>
+            </connections>
+            <point key="canvasLocation" x="217.55725190839695" y="-25.704225352112676"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Chichén Itzá, Mexico" width="1000" height="563"/>
+    </resources>
+</document>
