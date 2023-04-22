@@ -9,7 +9,6 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-
     @IBOutlet weak var lblName: UILabel!
     
     @IBOutlet weak var wondersImage: UIImageView!
